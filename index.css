@@ -1,0 +1,140 @@
+/* Global css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.global-btn{
+width: 140px;
+height: 40px;
+background-color: black;
+color: white;
+}
+
+.global-section{
+    padding: 3rem 0;
+}
+.global-heading{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.global-heading-p{
+    color: #787878;
+    text-align: center;
+}
+
+/* header starts here */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+.main-menu ul li{
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* section starts */
+.first-section{
+    background-image: url(./image/port2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+.first-section p {
+    font-size: 3rem;
+}
+.first-section h2{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+/* About us section */
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+.about-sub-div2{
+    width: 500px;
+}
+about-sub-div2 h2{
+    font-size: 35px;
+}
+.about-sub-div2 p{
+    color: #787878;
+    margin: 15px 0;
+}
+
+/*This is Service Area*/
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 15px 0;
+}
+.grid-single-item p{
+    color: #787878;
+}
+.custom-icon-size{
+    font-size: 65px;
+}
+/* section ends */
+
+/*Work Section*/
+.work-single-img{
+    width: 390px;
+}
+
+/*Testimonial section*/
+.testimonial-p{
+    color: black !important;
+    margin-top: 5px;
+}
+
+/*contact section*/
+.contact-heading{
+    font-size: 60px;
+    text-align: center;
+}
+
+form{
+    margin-left: 33rem;
+    margin-top: 20px;
+}
+
+form input{
+    width: 450px;
+}
+form textarea{
+    width: 450px;
+}
+.submit-btn{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+/*footer starts here*/
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 3rem;
+}
+footer p{
+    padding-top: 15px;
+}
