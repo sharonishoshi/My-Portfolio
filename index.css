@@ -63,6 +63,7 @@ header{
 }
 .about-sub-div2{
     width: 500px;
+    margin-left: 2rem;
 }
 about-sub-div2 h2{
     font-size: 35px;
@@ -95,37 +96,6 @@ about-sub-div2 h2{
 /*Work Section*/
 .work-single-img{
     width: 390px;
-}
-
-/*Testimonial section*/
-.testimonial-p{
-    color: black !important;
-    margin-top: 5px;
-}
-
-/*contact section*/
-.contact-heading{
-    font-size: 60px;
-    text-align: center;
-}
-
-form{
-    margin-left: 33rem;
-    margin-top: 20px;
-}
-
-form input{
-    width: 450px;
-}
-form textarea{
-    width: 450px;
-}
-.submit-btn{
-    width: 150px;
-    height: 35px;
-    background-color: black;
-    color: white;
-    margin-top: 10px;
 }
 
 /*footer starts here*/
